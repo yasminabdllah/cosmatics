@@ -1,0 +1,745 @@
+*{
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    font-weight:400;
+
+  
+
+}
+
+body {
+    
+    font-optical-sizing: auto;
+  
+    font-style: normal;
+  
+
+    width: 100% ;
+    font-size: 16px;
+    color: #212529;;
+
+
+}
+
+#header
+
+{
+    
+    background-color: #F3F2F2;
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    padding: 20px 80px;
+
+    box-shadow: 0 3px 15px #E0BCAF;
+    z-index: 999;
+
+    position:sticky;
+
+    top: 0;
+
+    left: 0;
+
+}
+
+#navbar {
+
+    display: flex;
+    
+    align-items: center;
+
+    justify-content: center;
+
+
+}
+
+#navbar li{
+    display: inline;
+    list-style: none;
+
+    padding: 0  20px;
+
+}
+
+
+#navbar li a {
+
+    text-decoration: none;
+
+    color:#1c1b1a;
+
+    font-weight: 600;
+
+    font-size: 16px;
+
+    transition: 0.3s ease;
+
+}
+
+#navbar li a:hover {
+
+    color: white;
+
+}
+
+h1 {
+
+    font-size: 46px;
+
+    line-height: 64px;
+
+    color:#1c1b1a;
+    
+
+}
+
+h2 {
+
+    font-size: 26px;
+
+    line-height: 54px;
+
+    color: #1c1b1a;
+    text-decoration: none;
+
+}
+
+h4 {
+
+    font-size: 20px;
+
+    color:rgb(53, 53, 52);
+    text-decoration: none;
+
+}
+
+
+
+#close {
+
+    display: none;
+
+}
+#header .logo{
+    height: 20px;
+}
+
+
+#hero {
+   /* background-image: url("img/Premium Photo _ Top view of honey and bath salts for spa (1).jfif");*/
+    /*background-image: url("img/download__8_-removebg-preview.png");
+    background-image: url("img/BAMBOO-removebg-preview.png");*/
+    background-image: url("img/download__17_-removebg-preview.png");
+    /*background-image: url("img/minimalistic-science-banner-with-sample.jpg");*/
+    /*background-image: url("img/download__5_-removebg-preview.png");*/
+    /*background-image: url('https://i.pinimg.com/564x/7e/7e/b0/7e7eb01b0623e19142defea011fd18b0.jpg');*/
+    background-color: #F3F2F2;
+    
+    border: 0;
+
+    padding: 0  88px;
+
+    height: 90vh;
+
+    width: 100%;
+
+    position:top 25%  right 0;
+
+    display: flex;
+
+    align-items: flex-start;
+
+    justify-content:end;
+
+    flex-direction: column;
+    background-position:right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+
+    
+    padding-bottom: 50px;
+   
+
+
+}
+#navbar svg{
+    width: 15px;
+    height: 15px;
+}
+.hidden{
+    display:none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    color: white;
+    background-color: rgb(113, 34, 34);
+    text-align: center;
+    font-size: smaller;
+}
+.show{
+    display:block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    color: white;
+    background-color: rgb(142, 61, 61);
+    text-align: center;
+    font-size: smaller;
+
+}
+#hero h4{
+
+    padding-bottom: 15px;
+
+}
+
+#hero h1 {
+
+    color: #E0BCAF;
+
+
+}
+
+#hero button {
+
+    background-color: transparent;
+    border: 0;
+
+    padding: 14px  88px  14px  65px;
+
+    font-weight: 700;
+    color:  #E0BCAF;
+    font-size: 15px;
+    border: 0.5px solid   #E0BCAF;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-right:15px ;
+
+}
+#hero button:hover{
+    background-color:   #E0BCAF;
+    color: #1c1b1a;
+}
+#hero a{
+    text-decoration: none;
+}
+
+#hero button a {
+
+    text-decoration: none;
+
+    font-size: 16px;
+
+    font-weight: 600;
+
+
+    transition: 0.3s ease;
+
+}
+
+.section-p1 {
+
+    padding: 40px 88px;
+
+}
+
+#feature {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    flex-wrap: nowrap;
+
+}
+
+#feature .box {
+
+    width:140px;
+    min-height: 300px;
+
+    text-align: center;
+
+    padding: 25px  13px;
+
+    box-shadow: 20px  20px  34px  rgba(0, 0, 0, 0.0.3);
+
+    border: 1px solid white;
+
+    border-radius: 4px;
+
+    margin: 15px 0;
+
+}
+
+#feature .box :hover{
+
+    box-shadow: 10px 10px 54px rgb(75, 104, 75);
+
+}
+
+#feature .box img {
+    width:100%;
+    height: 100px;
+    margin-bottom: 10px;
+   
+
+}
+
+
+#feature .box h6 {
+
+    display: inline-block;
+
+    padding: 9px  8px;
+
+    line-height: 1;
+
+    border-radius: 4px/8px;
+    
+    background-color:rgb(214, 231, 253);
+    background-color: rgb(75, 104, 75);
+    color: rgb(53, 53, 52);
+    color: white;
+
+}
+#footer{
+    display: flex;
+    
+    width: 100%;
+    margin-top: 20px;
+    background-color: #E0BCAF;
+    color: white;
+    justify-content: space-between;
+    padding: 50px;
+    border-bottom: 1px solid white;
+}
+#footer p{
+   
+    color: white;
+
+}
+#footer a{
+   padding-right: 20px;
+   display: block;
+   text-decoration: none;
+   margin-bottom: 20px;
+}
+.after{
+   
+    height: 30px;
+    background-color: #c9afa6;
+   
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.after p{
+    color:white;
+}
+#footer svg{
+    width: 40px;
+    margin-right: 20px;
+}
+#footer svg:hover{
+    scale: 1.1;
+}
+#products {
+    margin-right: 17%;
+    color: #212529;
+}
+#products p{
+    color: #514a47;
+    padding: 10px;
+}
+.pro-img{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+
+}
+.img-container{
+    display: block;
+}
+.img-container div img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.img-container div{
+    box-shadow: 10px 10px 54px #4b4647;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-bottom: 10px;
+}
+.main-img img{
+    display: block;
+    box-shadow: 10px 10px 54px #4b4647;
+    height: 560px;
+    width: 600px;
+    margin-right: 50px;
+    border-radius: 15px;
+    
+}
+.img-container div img{
+    width: 300px;
+    height: 200px;
+    
+}
+.img-container div:hover{
+    box-shadow: 10px 10px 54px rgb(222, 216, 135);
+
+}
+#products button{
+   padding: 15px 50px;
+    border-radius: 25px;
+    font-size: larger;
+    font-weight: 400;
+    color: #212529;
+    background-color: #c9afa6;
+    
+}
+#products button:hover{
+    background-color: transparent;
+    color: #E0BCAF;
+}
+#produsts1{
+    text-align: center;
+}
+.pro-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pro{
+    max-width: 24%;
+    height: 450px;
+    padding: 10px 12px;
+    border: 1px solid white;
+    border-radius: 25px;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0,0.2);
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative;
+    color: #E0BCAF;
+    
+    
+}
+#produsts1 .pro:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0,0.6);
+
+}
+.pro img{
+   
+    margin-bottom: 25px;
+    width: 100%;
+    height: 250px;
+
+    
+    border-radius: 25px;
+}
+button{
+    padding: 15px 50px;
+    border: 1px solid #E0BCAF;
+    margin: 15px;
+    color: #E0BCAF;
+}
+button:hover{
+    background-color: #E0BCAF;
+    color: #212529;
+}
+#banner{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+
+    background-image: url("img/f12cfaa41e77852a68549647638b0e93-removebg-preview.png");
+
+    background-repeat: no-repeat;
+
+    scale:1;
+    background-size: cover;
+    background-position:80% 39%;
+};
+#pro2 .pro div{
+    background-color: aliceblue;
+}
+#special_pro{
+    width: 24%;
+}
+
+#banner span,.b_btn,p{
+    color: rgb(197, 229, 218);
+    text-transform: uppercase;
+   
+    background-color: transparent;
+   
+
+}
+.b_btn{
+    border: 1px solid    rgb(197, 229, 218);
+
+}
+
+#banner {
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+.b_btn:hover{
+    background-color: rgb(197, 229, 218);
+    color: white;
+
+    
+}
+#produsts1 .baby-img{
+    background-color:rgb(183, 198, 204);
+    border-radius: 25px;
+}
+.container_about {
+    display: grid;
+    height: 1000px;
+    grid-template-columns: 3fr 1fr 2fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+        "h1 img2 img4 "
+        "p img2 img4"
+        "img1 img3 img4"
+        "img1 img3 p2";
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    justify-self: auto;
+    text-align: justify;
+    overflow: hidden;
+    column-gap: 5px;
+    margin-top: 20px;
+}
+.h1 {
+    grid-area: h1;
+    text-transform: uppercase;
+    font-family: serif;
+    font-size: 1.4rem;
+}
+.decore {
+    grid-area: h1;
+    display: flex;
+    font-family: sans-serif;
+    justify-content: flex-end;
+    margin-bottom: 50px;
+    padding-right: 50px;
+}
+.p {
+    grid-area:p;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.img1 {
+    grid-area: img3;
+    background-image: url("https://i.pinimg.com/564x/06/cb/56/06cb568c6a9cae37e6569f776294441b.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    scale: 1;
+}
+
+.img4{
+    width: 100% !important;
+}
+.img2 {
+    grid-area: img1;
+    
+    
+    background-image: url("https://i.pinimg.com/564x/75/a1/fe/75a1feecdcf9d05705fa6ef77227af92.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    scale: 1;
+}
+.img3 {
+    grid-area: img4;
+    background-image: url("https://i.pinimg.com/564x/41/77/79/4177792338362ffb5d0f863dd805e119.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    scale: 1;
+}
+.img4 {
+    grid-area: img2;
+    width: inherit;
+    background-image: url("https://i.pinimg.com/564x/32/d7/56/32d756071606192ece05c8be2c3b52a9.jpg");
+    scale: 1;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container_about .p2 {
+    grid-area: p2;
+    padding-top: 5px;
+    padding-left: 5px;
+    color:rgb(36, 35, 35) ;
+    font-weight: 100;
+    
+}
+.container_about h6{
+    font-size: 16px;
+    line-height: 20px;
+
+}
+.shop_container{
+    display: flex;
+    padding: 50px 150px;
+    justify-content: space-between;
+}
+#your_photo img{
+    max-width: 200px;
+}
+#rmv{
+    background-color:transparent;
+    border: none;
+
+}
+.form-inputs{
+  min-width: 60%;
+}
+.filter_btn{
+    background-color: transparent;
+    border: none;
+     border-bottom: #514a47 1px solid;
+    color: #514a47;
+    font-size: 18px;
+    padding: 10px;
+}
+.allpro_card{
+    width: 18%;
+    box-shadow:  10px 10px 54px #514a47;
+    margin-top: 15px;
+    border-radius: 10px;
+    padding: 15px;
+}
+.allpro_card img{
+    width: 100%;
+    height: 150px;
+}
+.allpro_card .body p{
+    color: #514a47;
+    font-size: 14px;
+    margin: 10px 0px;
+    text-transform: lowercase;
+}
+.allpro_card .body button{
+    padding: 5px;
+    margin: 10px;
+    background-color: transparent;
+
+}
+.pro-container_new{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("img/Free  Business, Office, Equipment Background Images, Office Background Photo Background PNG and Vectors - Copy.jfif" ) ;
+    
+    padding: 100px;
+}
+.banner h2{
+    color:white;
+}
+.contact_cont{
+    display: flex;
+    justify-content: space-between;
+}
+.contact_cont div{
+    width: 40%;
+}
+.map_img img{
+    width: 250px;
+    margin: 20px;
+
+}
+.map_img p{
+    color: #514a47;
+    font-size: 18px;
+    font-weight: 400;
+}
+.ppp{
+    margin-top: 100px;
+}
+.map_img {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.review div{
+    width: 40%;
+    
+}
+.review p{
+    color: #514a47;
+    font-size: 12px;
+    margin: 10px;
+    text-transform: lowercase;
+}
+.review img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.contact_cont{
+    padding: 50px;
+    border: #514a47 1px solid;
+    border-radius: 20px;
+    margin: 50px;
+}
+.search_banner{
+   color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    margin-top:20px ;
+
+    background-image: url("img/download (22).jfif");
+
+    background-repeat: no-repeat;
+
+    scale:1;
+    background-size: cover;
+}
+.search_banner input{
+    width: 60%;
+    padding: 15px;
+    border: #6c6764 1px solid;
+    
+}

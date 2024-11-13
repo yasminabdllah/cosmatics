@@ -1,0 +1,10 @@
+body{
+    color:  #E0BCAF;
+    
+}
+#sub-btn button{
+    background-color: #E0BCAF !important;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+}
